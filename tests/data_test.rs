@@ -113,7 +113,7 @@ mod tests {
 
         // Verify that the server received the correct data
         let server_data = server_received_data.lock().unwrap();
-        assert_eq!(*server_data, Some(data_to_send));
+        assert_eq!(*server_data, Some(data_to_send.clone()));
 
         // Verify that the client received the correct response
         let client_data = client_received_data.lock().unwrap();
