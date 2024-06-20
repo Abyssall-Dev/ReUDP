@@ -1,0 +1,13 @@
+[package]
+name = "reudp"
+version = "0.0.1"
+edition = "2021"
+authors = ["Jaroslav Patočka <patockajaroslav@gmail.com>"]
+description = "A reliable layer on top of UDP."
+readme = "README.md"
+keywords = ["networking", "udp", "reliability", "games", "server"]
+categories = ["network-programming", "game-development", "protocols"]
+license = "MIT"
+repository = "https://github.com/Abyssall-Dev/ReUDP"
+
+[dependencies]
