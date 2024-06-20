@@ -1,5 +1,9 @@
 # ReUDP
 
+[![Crate](https://img.shields.io/crates/v/reudp.svg?label=crate)](https://crates.io/crates/reudp)
+[![Docs](https://docs.rs/reudp/badge.svg)](https://docs.rs/reudp/0.0.1/repath/)
+[![Rust](https://github.com/Abyssall-Dev/ReUDP/actions/workflows/rust.yml/badge.svg?branch=main)](https://github.com/Abyssall-Dev/ReUDP/actions/workflows/rust.yml)
+
 ReUDP is a reliability layer on top of unreliable UDP. It provides packet acknowledgment, heartbeats, and supports both client and server modes, ensuring reliable communication over UDP.
 
 ReUDP was developed for [Respark](https://playrespark.com/), an upcoming open world MMO shooter. Respark combines intense combat, strategic gameplay, and a vast, dynamic world to explore. Join our community on [Discord](https://discord.gg/8qzSGyekVJ) to stay updated with the latest news and development progress.
